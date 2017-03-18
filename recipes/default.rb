@@ -5,6 +5,7 @@
 # Copyright:: 2017, The Authors, All Rights Reserved.
 
 include_recipe 'apt::default'
+include_recipe 'java'
 
 apt_repository 'jenkins' do
   uri  'http://pkg.jenkins.io/debian-stable'
