@@ -1,0 +1,241 @@
+I, [2017-03-18T18:38:30.087195 #66092]  INFO -- default-ubuntu-1604: -----> Converging <default-ubuntu-1604>...
+I, [2017-03-18T18:38:30.138292 #66092]  INFO -- default-ubuntu-1604: Preparing files for transfer
+I, [2017-03-18T18:38:30.138435 #66092]  INFO -- default-ubuntu-1604: Preparing dna.json
+I, [2017-03-18T18:38:30.207473 #66092]  INFO -- default-ubuntu-1604: Resolving cookbook dependencies with Berkshelf 5.6.0...
+I, [2017-03-18T18:38:51.174079 #66092]  INFO -- default-ubuntu-1604: Removing non-cookbook files before transfer
+I, [2017-03-18T18:38:51.195598 #66092]  INFO -- default-ubuntu-1604: Preparing validation.pem
+I, [2017-03-18T18:38:51.207411 #66092]  INFO -- default-ubuntu-1604: Preparing client.rb
+I, [2017-03-18T18:38:51.700360 #66092]  INFO -- default-ubuntu-1604: -----> Chef Omnibus installation detected (install only if missing)
+I, [2017-03-18T18:38:51.728863 #66092]  INFO -- default-ubuntu-1604: Transferring files to <default-ubuntu-1604>
+I, [2017-03-18T18:38:52.951926 #66092]  INFO -- default-ubuntu-1604: [2017-03-18T22:38:52+00:00] INFO: Forking chef instance to converge...
+I, [2017-03-18T18:38:52.972371 #66092]  INFO -- default-ubuntu-1604: Starting Chef Client, version 12.19.36
+I, [2017-03-18T18:38:52.972760 #66092]  INFO -- default-ubuntu-1604: [2017-03-18T22:38:52+00:00] INFO: *** Chef 12.19.36 ***
+I, [2017-03-18T18:38:52.973230 #66092]  INFO -- default-ubuntu-1604: [2017-03-18T22:38:52+00:00] INFO: Platform: x86_64-linux
+I, [2017-03-18T18:38:52.973715 #66092]  INFO -- default-ubuntu-1604: [2017-03-18T22:38:52+00:00] INFO: Chef-client pid: 4464
+I, [2017-03-18T18:38:54.552114 #66092]  INFO -- default-ubuntu-1604: [2017-03-18T22:38:53+00:00] INFO: Setting the run_list to ["recipe[jenkins::default]"] from CLI options
+I, [2017-03-18T18:38:54.562630 #66092]  INFO -- default-ubuntu-1604: [2017-03-18T22:38:53+00:00] INFO: Run List is [recipe[jenkins::default]]
+I, [2017-03-18T18:38:54.563084 #66092]  INFO -- default-ubuntu-1604: [2017-03-18T22:38:53+00:00] INFO: Run List expands to [jenkins::default]
+I, [2017-03-18T18:38:54.563480 #66092]  INFO -- default-ubuntu-1604: [2017-03-18T22:38:53+00:00] INFO: Starting Chef Run for default-ubuntu-1604
+I, [2017-03-18T18:38:54.564027 #66092]  INFO -- default-ubuntu-1604: [2017-03-18T22:38:53+00:00] INFO: Running start handlers
+I, [2017-03-18T18:38:54.564458 #66092]  INFO -- default-ubuntu-1604: [2017-03-18T22:38:53+00:00] INFO: Start handlers complete.
+I, [2017-03-18T18:38:54.565883 #66092]  INFO -- default-ubuntu-1604: [2017-03-18T22:38:53+00:00] INFO: HTTP Request Returned 404 Not Found: Object not found: 
+I, [2017-03-18T18:38:54.566658 #66092]  INFO -- default-ubuntu-1604: resolving cookbooks for run list: ["jenkins::default"]
+I, [2017-03-18T18:38:54.634208 #66092]  INFO -- default-ubuntu-1604: [2017-03-18T22:38:53+00:00] INFO: Loading cookbooks [jenkins@0.1.0, apt@6.0.1]
+I, [2017-03-18T18:38:54.640867 #66092]  INFO -- default-ubuntu-1604: Synchronizing Cookbooks:
+I, [2017-03-18T18:38:54.646449 #66092]  INFO -- default-ubuntu-1604:   [2017-03-18T22:38:53+00:00] INFO: Storing updated cookbooks/jenkins/recipes/default.rb in the cache.
+I, [2017-03-18T18:38:54.647462 #66092]  INFO -- default-ubuntu-1604: - apt (6.0.1)
+I, [2017-03-18T18:38:54.648084 #66092]  INFO -- default-ubuntu-1604:   - jenkins (0.1.0)
+I, [2017-03-18T18:38:54.648974 #66092]  INFO -- default-ubuntu-1604: Installing Cookbook Gems:
+I, [2017-03-18T18:38:54.650021 #66092]  INFO -- default-ubuntu-1604: Compiling Cookbooks...
+I, [2017-03-18T18:38:54.662811 #66092]  INFO -- default-ubuntu-1604: Converging 6 resources
+I, [2017-03-18T18:38:54.663653 #66092]  INFO -- default-ubuntu-1604: Recipe: jenkins::default
+I, [2017-03-18T18:38:54.664821 #66092]  INFO -- default-ubuntu-1604:   * remote_file[/tmp/pkg.jenkins.io.key] action create[2017-03-18T22:38:54+00:00] INFO: Processing remote_file[/tmp/pkg.jenkins.io.key] action create (jenkins::default line 8)
+I, [2017-03-18T18:38:54.793391 #66092]  INFO -- default-ubuntu-1604: [2017-03-18T22:38:54+00:00] INFO: remote_file[/tmp/pkg.jenkins.io.key] created file /tmp/pkg.jenkins.io.key
+I, [2017-03-18T18:38:54.793641 #66092]  INFO -- default-ubuntu-1604: 
+I, [2017-03-18T18:38:54.796937 #66092]  INFO -- default-ubuntu-1604:     - create new file /tmp/pkg.jenkins.io.key[2017-03-18T22:38:54+00:00] INFO: remote_file[/tmp/pkg.jenkins.io.key] updated file contents /tmp/pkg.jenkins.io.key
+I, [2017-03-18T18:38:54.797314 #66092]  INFO -- default-ubuntu-1604: 
+I, [2017-03-18T18:38:54.798109 #66092]  INFO -- default-ubuntu-1604:     - update content in file /tmp/pkg.jenkins.io.key from none to e0c548
+I, [2017-03-18T18:38:54.799185 #66092]  INFO -- default-ubuntu-1604:     --- /tmp/pkg.jenkins.io.key	2017-03-18 22:38:54.122834000 +0000
+I, [2017-03-18T18:38:54.800003 #66092]  INFO -- default-ubuntu-1604:     +++ /tmp/chef-rest20170318-4464-88k77x	2017-03-18 22:38:54.122834000 +0000
+I, [2017-03-18T18:38:54.800544 #66092]  INFO -- default-ubuntu-1604:     @@ -1 +1,145 @@
+I, [2017-03-18T18:38:54.801173 #66092]  INFO -- default-ubuntu-1604:     +-----BEGIN PGP PUBLIC KEY BLOCK-----
+I, [2017-03-18T18:38:54.801758 #66092]  INFO -- default-ubuntu-1604:     +Version: GnuPG v1
+I, [2017-03-18T18:38:54.802208 #66092]  INFO -- default-ubuntu-1604:     +
+I, [2017-03-18T18:38:54.802784 #66092]  INFO -- default-ubuntu-1604:     +mQGiBEmFQG0RBACXScOxb6BTV6rQE/tcJopAEWsdvmE0jNIRWjDDzB7HovX6Anrq
+I, [2017-03-18T18:38:54.803350 #66092]  INFO -- default-ubuntu-1604:     +n7+Vq4spAReSFbBVaYiiOx2cGDymj2dyx2i9NAI/9/cQXJOU+RPdDzHVlO1Edksp
+I, [2017-03-18T18:38:54.803388 #66092]  INFO -- default-ubuntu-1604:     +5rKn0cGPWY5sLxRf8s/tO5oyKgwCVgTaB5a8gBHaoGms3nNC4YYf+lqlpwCgjbti
+I, [2017-03-18T18:38:54.803634 #66092]  INFO -- default-ubuntu-1604:     +3u1iMIx6Rs+dG0+xw1oi5FUD/2tLJMx7vCUQHhPRupeYFPoD8vWpcbGb5nHfHi4U
+I, [2017-03-18T18:38:54.803929 #66092]  INFO -- default-ubuntu-1604:     +8/x4qZspAIwvXtGw0UBHildGpqe9onp22Syadn/7JgMWhHoFw5Ke/rTMlxREL7pa
+I, [2017-03-18T18:38:54.804032 #66092]  INFO -- default-ubuntu-1604:     +TiXuagD2G84tjJ66oJP1FigslJzrnG61y85V7THL61OFqDg6IOP4onbsdqHby4VD
+I, [2017-03-18T18:38:54.804244 #66092]  INFO -- default-ubuntu-1604:     +zZj9A/9uQxIn5250AGLNpARStAcNPJNJbHOQuv0iF3vnG8uO7/oscB0TYb8/juxr
+I, [2017-03-18T18:38:54.804580 #66092]  INFO -- default-ubuntu-1604:     +hs9GdSN0U0BxENR+8KWy5lttpqLMKlKRknQYy34UstQiyFgAQ9Epncu9uIbVDgWt
+I, [2017-03-18T18:38:54.804610 #66092]  INFO -- default-ubuntu-1604:     +y7utnqXN033EyYkcWx5EhLAgHkC7wSzeSWABV3JSXN7CeeOif7QiS29oc3VrZSBL
+I, [2017-03-18T18:38:54.804631 #66092]  INFO -- default-ubuntu-1604:     +YXdhZ3VjaGkgPGtrQGtvaHN1a2Uub3JnPohjBBMRAgAjAhsDBgsJCAcDAgQVAggD
+I, [2017-03-18T18:38:54.804650 #66092]  INFO -- default-ubuntu-1604:     +BBYCAwECHgECF4AFAko/7vYCGQEACgkQm30y8tUFguabhgCgi54IQR4rpJZ/uUHe
+I, [2017-03-18T18:38:54.805179 #66092]  INFO -- default-ubuntu-1604:     +ZB879zUWTQwAniQDBO+Zly7Fsvm0Mcvqvl02UzxCiGAEExECACAFAkmFQG0CGwMG
+I, [2017-03-18T18:38:54.805220 #66092]  INFO -- default-ubuntu-1604:     +CwkIBwMCBBUCCAMEFgIDAQIeAQIXgAAKCRCbfTLy1QWC5qtXAJ9hPRisOhkexWXJ
+I, [2017-03-18T18:38:54.805243 #66092]  INFO -- default-ubuntu-1604:     +nXQMl9cOTvm4LgCdGint1TONoZ2I4JtOiFzOmeP3ju3RzcvNyQEQAAEBAAAAAAAA
+I, [2017-03-18T18:38:54.805264 #66092]  INFO -- default-ubuntu-1604:     +AAAAAAAA/9j/4AAQSkZJRgABAQEAYABgAAD/4QBgRXhpZgAASUkqAAgAAAAEADEB
+I, [2017-03-18T18:38:54.805283 #66092]  INFO -- default-ubuntu-1604:     +AgAZAAAAPgAAABBRAQABAAAAAUOQABFRBAABAAAAEgsAABJRBAABAAAAEgsAAAAA
+I, [2017-03-18T18:38:54.805302 #66092]  INFO -- default-ubuntu-1604:     +AABNYWNyb21lZGlhIEZpcmV3b3JrcyA0LjAAAP/bAEMACAYGBwYFCAcHBwkJCAoM
+I, [2017-03-18T18:38:54.805321 #66092]  INFO -- default-ubuntu-1604:     +FA0MCwsMGRITDxQdGh8eHRocHCAkLicgIiwjHBwoNyksMDE0NDQfJzk9ODI8LjM0
+I, [2017-03-18T18:38:54.805340 #66092]  INFO -- default-ubuntu-1604:     +Mv/bAEMBCQkJDAsMGA0NGDIhHCEyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy
+I, [2017-03-18T18:38:54.805360 #66092]  INFO -- default-ubuntu-1604:     +MjIyMjIyMjIyMjIyMjIyMjIyMjIyMv/AABEIAK4AlgMBIgACEQEDEQH/xAAfAAAB
+I, [2017-03-18T18:38:54.805886 #66092]  INFO -- default-ubuntu-1604:     +BQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgv/xAC1EAACAQMDAgQDBQUEBAAAAX0B
+I, [2017-03-18T18:38:54.805942 #66092]  INFO -- default-ubuntu-1604:     +AgMABBEFEiExQQYTUWEHInEUMoGRoQgjQrHBFVLR8CQzYnKCCQoWFxgZGiUmJygp
+I, [2017-03-18T18:38:54.805968 #66092]  INFO -- default-ubuntu-1604:     +KjQ1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoOEhYaHiImK
+I, [2017-03-18T18:38:54.805988 #66092]  INFO -- default-ubuntu-1604:     +kpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4eLj
+I, [2017-03-18T18:38:54.806008 #66092]  INFO -- default-ubuntu-1604:     +5OXm5+jp6vHy8/T19vf4+fr/xAAfAQADAQEBAQEBAQEBAAAAAAAAAQIDBAUGBwgJ
+I, [2017-03-18T18:38:54.806027 #66092]  INFO -- default-ubuntu-1604:     +Cgv/xAC1EQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGh
+I, [2017-03-18T18:38:54.806046 #66092]  INFO -- default-ubuntu-1604:     +scEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZ
+I, [2017-03-18T18:38:54.806065 #66092]  INFO -- default-ubuntu-1604:     +WmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1
+I, [2017-03-18T18:38:54.806555 #66092]  INFO -- default-ubuntu-1604:     +tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEA
+I, [2017-03-18T18:38:54.806585 #66092]  INFO -- default-ubuntu-1604:     +AhEDEQA/APcBI/8Afb86XzH/AL7fnUYpwqRknmN/fP50u9v7x/OmCgUASb2/vH86
+I, [2017-03-18T18:38:54.806605 #66092]  INFO -- default-ubuntu-1604:     +Xe394/nTBS0AP3t/eP50u4+p/OmUopgO3H1NO3H1NR5xThQA7cfWlyfU0ylFMQ/J
+I, [2017-03-18T18:38:54.806625 #66092]  INFO -- default-ubuntu-1604:     +9aXPvTKdQAuaM0lLQAtJmiigAzRSdqKAKApwpopc1mUOpRSUopgKKWkFLQAueKzr
+I, [2017-03-18T18:38:54.806666 #66092]  INFO -- default-ubuntu-1604:     +zXbCwk2Tzxq3cFwK8v8Aih8V30aaTQ9DKtegYnuTyIvZR3b+VfP1/q17fzvLc3Ms
+I, [2017-03-18T18:38:54.806700 #66092]  INFO -- default-ubuntu-1604:     +sjHJZ2JJNGr2HZdT6j8U/FbR/DcKsM3VxLkpGh6AetcI37Ql4Zcx6LAYx2aUgmvD
+I, [2017-03-18T18:38:54.806730 #66092]  INFO -- default-ubuntu-1604:     +1ju7obgJHA7nmmmG4TqjDHtS+ZXL1sfVPhT4yeH/ABFNHaXYbS71zhVnYGNz6B+n
+I, [2017-03-18T18:38:54.806751 #66092]  INFO -- default-ubuntu-1604:     +4HFejK2RmvhJJSDiTj6ivYvht8XptE8rSPEEklxpxwkFyTue39j6p+op3a3Javsf
+I, [2017-03-18T18:38:54.807170 #66092]  INFO -- default-ubuntu-1604:     +RuacDVaC4juIUmhkWSKRQyspyGB7ipgasgfmlpoNLmgBaKSigBaKM0UAUBS0lKKz
+I, [2017-03-18T18:38:54.807200 #66092]  INFO -- default-ubuntu-1604:     +KFFLSUooAdWR4o1qLw/4bvtSmZVEMRK57t2H51rCvJPj7etD4WsbQMQJ7jkDuFBN
+I, [2017-03-18T18:38:54.807220 #66092]  INFO -- default-ubuntu-1604:     +D2GlqfP13dS3k89zM5eaZy7sTySTWvovhw3JWWdcqeQtUNGsWvtQRMfIvJr0u0t1
+I, [2017-03-18T18:38:54.807238 #66092]  INFO -- default-ubuntu-1604:     +hjUKOnpXFi8Q6a5Y7npYLDqfvyILXQolRVWMdOwp1x4cjYH5QPwrftQcDippFavM
+I, [2017-03-18T18:38:54.807637 #66092]  INFO -- default-ubuntu-1604:     +UpvW569ktLHnOp+FFaNiijcOlcfcW8tlN5UgI+tezXEeSeM5rmtf0OK/tSVUCVOV
+I, [2017-03-18T18:38:54.807665 #66092]  INFO -- default-ubuntu-1604:     +Irsw+KlF8s9jhxWFjNc0dzpfgh49MV1/wimozExyndYOx+6/eP6HqPcEd697Vq+I
+I, [2017-03-18T18:38:54.807686 #66092]  INFO -- default-ubuntu-1604:     +baWbTb+G5hJWe3lWVCDj5lOf6V9naTqUeraRZ6jEMR3UKTKM9NwzivXj2PDmrM1A
+I, [2017-03-18T18:38:54.807705 #66092]  INFO -- default-ubuntu-1604:     +1PqBTUoNMlDqKSloAKKOpopAUacKbS1mWOFKKbS0xC14p+0Gw+z6Ihb+ORsfgK9r
+I, [2017-03-18T18:38:54.807723 #66092]  INFO -- default-ubuntu-1604:     +rxT9oO3X7Ho1zn5vMePHrxn+lJjW55t4QgZbOe7CbmJ2IPU10sltriIDaSW7ORlg
+I, [2017-03-18T18:38:54.807742 #66092]  INFO -- default-ubuntu-1604:     +44HsKz/BCbtFyBysjVdvo9bcTNDMyEFfKCEDdzzknpx04NeVUles9vme3Rjairdu
+I, [2017-03-18T18:38:54.807761 #66092]  INFO -- default-ubuntu-1604:     +hoaXqOqwt5Wo2cSjoHRuv4VuTXKCAuBzjoa5myW9SKJLmVpH25lLEEBs9sVuTgGw
+I, [2017-03-18T18:38:54.808313 #66092]  INFO -- default-ubuntu-1604:     +BGN3f3rOU7SaOqEW43Me7l1a8l225SCL+9tyajfT7lHS4SdmkH+sVujj+lQakuo3
+I, [2017-03-18T18:38:54.808345 #66092]  INFO -- default-ubuntu-1604:     +ELC0uGjkBwqh9qlceuM5z/L3q1p9nfwyqzzs8WxQVkOTuxycjsT2q7+7e6MXH3mr
+I, [2017-03-18T18:38:54.808365 #66092]  INFO -- default-ubuntu-1604:     +M898QWgtNbmVeEcbwK+l/hdK7/DXQjI+4iAgH0AY4FfO/jWMx6+oxx5QP619B/Cx
+I, [2017-03-18T18:38:54.808385 #66092]  INFO -- default-ubuntu-1604:     +Wj+G2i7twzExww7bzj8K9bDO8UeJitJv1O5U1Mp4qshqdTW7RzpklLmmg0tSULmi
+I, [2017-03-18T18:38:54.808414 #66092]  INFO -- default-ubuntu-1604:     +kopAU6WkFFZlDqWm0tMQteX/ABe8MXPiBLCSN1SODcq5H8bY5+mB+teoVi+KbQ3e
+I, [2017-03-18T18:38:54.808435 #66092]  INFO -- default-ubuntu-1604:     +gXAU4dPnB9MVFS/I+Xc0pNKa5tjw/wAJ2L6fpbWsw2zRzOsg9wa6RIlk6Diszy5L
+I, [2017-03-18T18:38:54.808454 #66092]  INFO -- default-ubuntu-1604:     +a5kYksJTuyfWrUN2xbArxpyUpczPoKS5VyiXKQwHoBk/mamID2AIFZ89w6SlvKSV
+I, [2017-03-18T18:38:54.808475 #66092]  INFO -- default-ubuntu-1604:     +ugDNjFK2p3It/L8uIAc//WpRhd3RtKaSs2WLNIpQeAcGrjosYIFZVvcPLIr7Fibo
+I, [2017-03-18T18:38:54.808507 #66092]  INFO -- default-ubuntu-1604:     +Qpzmp5rp/N24prTQmT0uYOv6LDrWt2avIIkSJjI3qMjAHuTmveNEsU0rRbGwjPyW
+I, [2017-03-18T18:38:54.808955 #66092]  INFO -- default-ubuntu-1604:     +0CRr9AK8k0y0S81yMMAzllQL3xnnAr2cdfavXwLbT8jwcwsmrbssoamU8VXQ1Otd
+I, [2017-03-18T18:38:54.808984 #66092]  INFO -- default-ubuntu-1604:     +jOBEoNOBqMGnA1BY6ikHNFAypS0lLWRQtFFApgLTJoknheKQZRwVYe1OopiPO/GP
+I, [2017-03-18T18:38:54.809004 #66092]  INFO -- default-ubuntu-1604:     +hq202xgu7RX+VishZs9a4pmaMtsGSRkAV7Xq9gupaXPasPvr8v17V4jKHt7qS3k4
+I, [2017-03-18T18:38:54.809023 #66092]  INFO -- default-ubuntu-1604:     +kjYqa8vF0lCSaWh6uDrOSab1KAuLia9a2CJCQu7zLhgoI9q2f+Ecv2h877XZbTuB
+I, [2017-03-18T18:38:54.809419 #66092]  INFO -- default-ubuntu-1604:     +Ikz0x/jVK4RZVAdckDg1QfEY8kW6EeoYgH6jOKwi0z0emkrfK5LcyXNpex2YEVyz
+I, [2017-03-18T18:38:54.809452 #66092]  INFO -- default-ubuntu-1604:     +ruEkD5Cj1NX1Lbt0hyVHP1qpbxiFCyqN5HYYAq/pcH2/WbSyLcSyAMfbqaduaSij
+I, [2017-03-18T18:38:54.809486 #66092]  INFO -- default-ubuntu-1604:     +KpJRTdz03w3p0dpo1m7RL57JvLFRuG7nr16YrdWolAHAGB2qVa+hjFRioo+YlJyk
+I, [2017-03-18T18:38:54.809538 #66092]  INFO -- default-ubuntu-1604:     +5MnSp1NQpUopMESCnA+tMFOBqS0Oz6UUlFIZWopKXNZFi0UlFMQuaM0maM0wOU8Z
+I, [2017-03-18T18:38:54.809560 #66092]  INFO -- default-ubuntu-1604:     +/ELRfA8UQ1Ayz3kw3RWkABcrnG4k8KPr17CvIbjWR4lSXXbW2Nv5srHyS+4gA9Cc
+I, [2017-03-18T18:38:54.809579 #66092]  INFO -- default-ubuntu-1604:     +DNYfxfl+1fEbVCsm8xFI+T0wo4/CrHg9kt9OFm88TyffwrA43DOPw71y4xfuk13O
+I, [2017-03-18T18:38:54.810129 #66092]  INFO -- default-ubuntu-1604:     +zBfxGn2NWDU4ZFXLbXHDKamN7a7cfLn3qCWyt2nKyxAj3FLJo9hFGH8sNu5HJrzo
+I, [2017-03-18T18:38:54.810159 #66092]  INFO -- default-ubuntu-1604:     +2PTbkupHPqcafLHlnPCqKu6VqMfhy4h1nUEkdIDvdIwC2MYwM455rMW502wlzLLD
+I, [2017-03-18T18:38:54.810196 #66092]  INFO -- default-ubuntu-1604:     +Cq+p5P4dax9e8S2N5aSWtuXcOMFsYH61vSpzlNOKMKs4qLUme6+EvHWk+MRcLp6X
+I, [2017-03-18T18:38:54.810235 #66092]  INFO -- default-ubuntu-1604:     +EUtuAzxzqAcHjIwTmuqQ185/CTXo9J8XRW0iqsF+v2bcxxtbOVOfcjH419EqcHBr
+I, [2017-03-18T18:38:54.810267 #66092]  INFO -- default-ubuntu-1604:     +3FqeDJWZbQ1KDVeNqmBqWCJRTs1GDTgakseKKQc0UgK1LTaq6lqljo9g99qV3Fa2
+I, [2017-03-18T18:38:54.810289 #66092]  INFO -- default-ubuntu-1604:     +qfellbAz6DuT7DmsjQuU15FiiaWR1SNBlndgFUe5PSvGfEfx02s8HhzTwR0F3eDr
+I, [2017-03-18T18:38:54.810309 #66092]  INFO -- default-ubuntu-1604:     +7rGP/Zj+FeU674u1zxE5bVtUuLlc5ETNiNfogwo/KrUWFj37xF8YfC+hiSK1mfVb
+I, [2017-03-18T18:38:54.810328 #66092]  INFO -- default-ubuntu-1604:     +tePLtf8AVg+8h4/LNeSa/wDGHxRrcjpb3Q0u3OcRWZ2nHu5+Y/p9K89Z9x5ppOM8
+I, [2017-03-18T18:38:54.810348 #66092]  INFO -- default-ubuntu-1604:     +1SihXHTTyO7NIzO7MWZmOSxPUk+tQrKyNuUkEdwcGnFs8EVGV9Kom5YGoXqtuW7n
+I, [2017-03-18T18:38:54.810387 #66092]  INFO -- default-ubuntu-1604:     +B9fMNPOrag67Wvbgr6eYap4OelA5qeSPYrnl3Jg7McsxJ9SakTrzUCg+1SgqgyTm
+I, [2017-03-18T18:38:54.810762 #66092]  INFO -- default-ubuntu-1604:     +rJLkbjII6e9dfp/xR8VaciLFqjTxxAKI7pFkBHuTz+tcL5xI9AeAKcpGSSe1Az37
+I, [2017-03-18T18:38:54.811215 #66092]  INFO -- default-ubuntu-1604:     +wx8adPv3S3122FjKeBPES8R+o6r+tepWl7b3tulxazxTwvyskbBlP4ivjASAnA4r
+I, [2017-03-18T18:38:54.811244 #66092]  INFO -- default-ubuntu-1604:     +Z0DxVrHh2787TL+WDP3kzlG+qng0XFyo+wlfIp4NeN+FfjbaXs0dp4gt1tGPH2uH
+I, [2017-03-18T18:38:54.811264 #66092]  INFO -- default-ubuntu-1604:     +Jjz/ALS9R9RmvWra6huoEnt5o5oXGUkjYMrD2IpE2aLgoqMOMUUWC5ka/rVv4e0K
+I, [2017-03-18T18:38:54.811295 #66092]  INFO -- default-ubuntu-1604:     +71W5G6O3QsEBwXboFH1OK+WPE3irVfE2pNeapcM7ZPlxA4jhX+6i9h+p71698dNZ
+I, [2017-03-18T18:38:54.811315 #66092]  INFO -- default-ubuntu-1604:     ++z6Np+ko3zXMpmkH+yvA/U/pXgcz7k9x/KogtDR6DXmJ71EXOKYTzSE5qybi7uaU
+I, [2017-03-18T18:38:54.811333 #66092]  INFO -- default-ubuntu-1604:     +mmd6UcimITPNKDmmnrQKAJM8Ck3egpuaQUAPBJ6k4ozknjimk9qB0oGO3E04NUYp
+I, [2017-03-18T18:38:54.811352 #66092]  INFO -- default-ubuntu-1604:     +aQEu/wBqXOFAPeohyQKV25NMCdJDng103hjxnq/hm7WTTrp1jJy8LHMb/Vf8muU+
+I, [2017-03-18T18:38:54.811752 #66092]  INFO -- default-ubuntu-1604:     +6g9TThIUGB1Pf0osNM+wPCnie18U6HHqNspjbOyaInJjcdR7jnINFeY/APUUJ1jS
+I, [2017-03-18T18:38:54.812098 #66092]  INFO -- default-ubuntu-1604:     +pZVQER3K7jjn7rf+y0U1YiWj0OW+NmoG68dvbhsrawIgHoTyf515qzbth9eDXQ+P
+I, [2017-03-18T18:38:54.812130 #66092]  INFO -- default-ubuntu-1604:     +NQOo+NNUus5DzED6Dj+lc0DnI9DmohsXLcaTQOaG6n60CqJEpVpM0A80ADDmkpzd
+I, [2017-03-18T18:38:54.812152 #66092]  INFO -- default-ubuntu-1604:     +RSUALRRRQACiijvQAtFJRmgY9B3po5b605DhGNN70CHu2CT+ApEwX5+ppG5AP1pM
+I, [2017-03-18T18:38:54.812172 #66092]  INFO -- default-ubuntu-1604:     +4GB1PWmBraZez2rvJBM8TMMEocHFFVLViFOKKm1y0xb9zNI0pJLFiT+PNUlPz5NW
+I, [2017-03-18T18:38:54.812544 #66092]  INFO -- default-ubuntu-1604:     +Jm+/9RVYjGPenYlisMufrSE05vu5qOgQtA60dqB1oAe3QU2nN0plAC0tJSjrQAlL
+I, [2017-03-18T18:38:54.812575 #66092]  INFO -- default-ubuntu-1604:     +miigAptL0pO9AEi8RfU0mM8560H/AFaikzx+NMBxx0H40zOeaU8KffikHSgCxC+y
+I, [2017-03-18T18:38:54.812597 #66092]  INFO -- default-ubuntu-1604:     +LPqaKYeAq+gooHc//9mIYAQTEQIAIAUCSj/3IAIbAwYLCQgHAwIEFQIIAwQWAgMB
+I, [2017-03-18T18:38:54.812617 #66092]  INFO -- default-ubuntu-1604:     +Ah4BAheAAAoJEJt9MvLVBYLmt2sAnRUJQoS4J/5+LW+Iy3tUYMTsR8aLAJ9gp9qD
+I, [2017-03-18T18:38:54.813040 #66092]  INFO -- default-ubuntu-1604:     +YbGfdcFG+HeSbh/PEwrqbLQzS29oc3VrZSBLYXdhZ3VjaGkgPGtvaHN1a2Uua2F3
+I, [2017-03-18T18:38:54.813072 #66092]  INFO -- default-ubuntu-1604:     +YWd1Y2hpQGNsb3VkYmVlcy5jb20+iGIEExECACIFAk0GnroCGwMGCwkIBwMCBhUI
+I, [2017-03-18T18:38:54.813092 #66092]  INFO -- default-ubuntu-1604:     +AgkKCwQWAgMBAh4BAheAAAoJEJt9MvLVBYLmfugAnRb1qac6CqRaNUhHbzd1m/5S
+I, [2017-03-18T18:38:54.813112 #66092]  INFO -- default-ubuntu-1604:     +niNzAJ9NJUC2Fjk7uEyvQ5bDJ+hAFbkQVLQpS29oc3VrZSBLYXdhZ3VjaGkgPGtv
+I, [2017-03-18T18:38:54.813490 #66092]  INFO -- default-ubuntu-1604:     +aHN1a2VAY2xvdWRiZWVzLmNvbT6IYgQTEQIAIgUCVh045AIbAwYLCQgHAwIGFQgC
+I, [2017-03-18T18:38:54.813518 #66092]  INFO -- default-ubuntu-1604:     +CQoLBBYCAwECHgECF4AACgkQm30y8tUFguZVLgCdElQ2ydLBp33/9SFyVEz3cFMk
+I, [2017-03-18T18:38:54.813539 #66092]  INFO -- default-ubuntu-1604:     +0DkAn2qWsQlPT549lAqeSnkhCOcGJAx0tCxLb2hzdWtlIEthd2FndWNoaSA8a2th
+I, [2017-03-18T18:38:54.813558 #66092]  INFO -- default-ubuntu-1604:     +d2FndWNoaUBjbG91ZGJlZXMuY29tPohiBBMRAgAiBQJWHTjzAhsDBgsJCAcDAgYV
+I, [2017-03-18T18:38:54.813577 #66092]  INFO -- default-ubuntu-1604:     +CAIJCgsEFgIDAQIeAQIXgAAKCRCbfTLy1QWC5sMTAKCA5kH0uH0x0HoTuxjrU740
+I, [2017-03-18T18:38:54.813596 #66092]  INFO -- default-ubuntu-1604:     +pU/53gCfaFWE6s7nBFMkJ3RyxjtZBGnY2Jm5Ag0ESYVAbRAIAOoBdaCKKzjKL3qi
+I, [2017-03-18T18:38:54.813615 #66092]  INFO -- default-ubuntu-1604:     +zdBmYrnzT2iONNOeUgKBvO2tPnlwxVMMFz1Kd7JFCULRxL4zXPgOjqWPzWw0l0mI
+I, [2017-03-18T18:38:54.814203 #66092]  INFO -- default-ubuntu-1604:     +E+pNhgDX57FMW+znMLE8icM/eG+pfEdM/XjZc3WF3O3ndHuyafw7TDI75EIFRvjh
+I, [2017-03-18T18:38:54.814237 #66092]  INFO -- default-ubuntu-1604:     +702S6y8F3lQ/cl7jj2GelcnhY7dxUwWbiCHGzsRGWkCLk1MSxVV0zx2odtkm2TyB
+I, [2017-03-18T18:38:54.814260 #66092]  INFO -- default-ubuntu-1604:     +vN0AcfTJuIBeZbIsUZkO64qIUCSqb9aV53uJ3o35w/HXTt3AFyXA/HN8RgoSonVg
+I, [2017-03-18T18:38:54.814281 #66092]  INFO -- default-ubuntu-1604:     +MMegOXJ/HjTXbLXnd7mwbJqH8g8Fiussx8b5aaLCvmcJfS2bA5zK6S4T3iFvMkJf
+I, [2017-03-18T18:38:54.814300 #66092]  INFO -- default-ubuntu-1604:     +bAF1tYsAAwYIALOXdy4ziUa3/CvmWIziCi1elkCilj4SdssgG44cVddHsefICBJP
+I, [2017-03-18T18:38:54.814324 #66092]  INFO -- default-ubuntu-1604:     +WMf8BRtp+8+PIOESQUPJQ/Xhe0c0gCqw3VSm7Jhsz3Rsw8BZcnGtrMyxIX5O/nIj
+I, [2017-03-18T18:38:54.814372 #66092]  INFO -- default-ubuntu-1604:     +EeLLhxzWmOiocDaTCogYeZPFjM485LX1lZAC16+hMTqkIBGmFjR3OmxwJZpcaz9m
+I, [2017-03-18T18:38:54.814404 #66092]  INFO -- default-ubuntu-1604:     +o0CGMv3pYthXU6hS372ZOc5yzpW7FrGnbA3ZLkMrVL2B0jFYRzzAxQ+JB7wJiTQ7
+I, [2017-03-18T18:38:54.814767 #66092]  INFO -- default-ubuntu-1604:     +JJ05EhuUyzdsaoMWgzkdwEBk/ViVeK08fachG/QO05AYxA4KSpRaZC5ABSApX5g7
+I, [2017-03-18T18:38:54.815347 #66092]  INFO -- default-ubuntu-1604:     +zqU7hLsSFMRP8Y+xBvo/t5+b8KzzBur/DIiISQQYEQIACQUCSYVAbQIbDAAKCRCb
+I, [2017-03-18T18:38:54.815383 #66092]  INFO -- default-ubuntu-1604:     +fTLy1QWC5raYAJ4k0FbiycMLg7OMpTpBPfzr8YD2ywCfe8vNLCfw3XG/kyKFYavm
+I, [2017-03-18T18:38:54.815407 #66092]  INFO -- default-ubuntu-1604:     +RXO9oTa5Ag0EWBjgRgEQALze0WQartDG4x1DaOpqKLAol9pfxSX+O88Nafw9dDdV
+I, [2017-03-18T18:38:54.815442 #66092]  INFO -- default-ubuntu-1604:     +v80CD7Q66p6X5o1TOOqEAqsI/dUFzDoZzW/EBN5TVKdNhV55WsIbvFJnJ9ccQ1yk
+I, [2017-03-18T18:38:54.815478 #66092]  INFO -- default-ubuntu-1604:     +fCYVQAH/eCIdM8dujAOZLjKSapz/wBdFbbOffvz7GLmsjn1wCruZfIOcaIcfaUfY
+I, [2017-03-18T18:38:54.815513 #66092]  INFO -- default-ubuntu-1604:     +QWsafzwU9VsRLSDrbwpylQJkvblfeb+ohQ/AYlVJmD1HcKF81AajgxbTUDCBxslY
+I, [2017-03-18T18:38:54.815548 #66092]  INFO -- default-ubuntu-1604:     +4kL6FmqqfLJDWXyg0aG7UEbP3ye7/61qrsKR0g84BHYgkLzQkdgsAGAMo3HvQzss
+I, [2017-03-18T18:38:54.816149 #66092]  INFO -- default-ubuntu-1604:     +BAqhZy2QSWKZCe6OQuIEzL01oTWJOWJYAoak9pSkjuFDsRbFRHC4YiaCIvwFHA8C
+I, [2017-03-18T18:38:54.816189 #66092]  INFO -- default-ubuntu-1604:     +3nCaa/jAXQ/NrBFyc1TsrDdxiXi6cEgER9WichpQaD/NCKGGHbEzzHow1Ni+pABq
+I, [2017-03-18T18:38:54.816211 #66092]  INFO -- default-ubuntu-1604:     +1leoVAfAEw8OwRYEftfoAQ5O8VdWe754xK2I5wFWjGKM0IHruEqnRgbWXL9Vy6Cv
+I, [2017-03-18T18:38:54.816247 #66092]  INFO -- default-ubuntu-1604:     +NTrQIoJbVuO/kQWH4jZ63TzsBnxHzdnRSuCNGXnuneIju8+wr33y+r914cNziCHm
+I, [2017-03-18T18:38:54.816714 #66092]  INFO -- default-ubuntu-1604:     +Tt0UsyTcf7xfzVB++obS0sCyklDIy+1EEzLePkUYl7Ebkst5tKgbVRNyH1niKRwX
+I, [2017-03-18T18:38:54.816745 #66092]  INFO -- default-ubuntu-1604:     +xoyowmIRznO79l46u9JMdlt9VO9oo+yR9DqMgNqUnc9Z+rt8EyUam87838FfF+OF
+I, [2017-03-18T18:38:54.816765 #66092]  INFO -- default-ubuntu-1604:     +ABEBAAGJAmgEGBECAAkFAlgY4EYCGwICKQkQm30y8tUFgubBXSAEGQECAAYFAlgY
+I, [2017-03-18T18:38:54.816784 #66092]  INFO -- default-ubuntu-1604:     +4EYACgkQlHo/RMJzQlXPTg//UpZd7vx0wNm6dPSUc9Agw5tQU5oCR4BUaDOBFDfb
+I, [2017-03-18T18:38:54.816803 #66092]  INFO -- default-ubuntu-1604:     +nKPNa8JQPVdH6lrt1Zaqc9Uka+l1eVK8SZiujohr3bCyal+5ParAdVbTt08pvh5d
+I, [2017-03-18T18:38:54.816822 #66092]  INFO -- default-ubuntu-1604:     +3YllLIKKad82Qy6WsUlAQmUpba+Fn5naXdd8WDN03J7LVOqYCQUWZu65r5oqmv8B
+I, [2017-03-18T18:38:54.817260 #66092]  INFO -- default-ubuntu-1604:     +eh+vcZO5ozEt/Huy+ruCsdb0WavbgI5+Pj6sKJtKBo5WwZzbDpbPUEUd3/T5zFbJ
+I, [2017-03-18T18:38:54.817287 #66092]  INFO -- default-ubuntu-1604:     +G/XDk77qfBP4DKC96tphzGp6EaEtrZ9Qto8AisCYGvhDptYqXqZm4J1mJj/SI+4C
+I, [2017-03-18T18:38:54.817307 #66092]  INFO -- default-ubuntu-1604:     +/1kVY0EEf4ySLy4/8f91h/jzcEliQNnmNZWgUTmP/nyUS+iLqUa4NmhdO45NYBfJ
+I, [2017-03-18T18:38:54.817326 #66092]  INFO -- default-ubuntu-1604:     +PZyviHsFxJhYppiPt32n5FpGrXM8fWaQsA+aKOL2D+AWeC8W/pPmDurLbYA1yRk7
+I, [2017-03-18T18:38:54.817345 #66092]  INFO -- default-ubuntu-1604:     +T7E1llz4wDf53CumQGtT4gKwmUdGbwp0TNZKggv+/6auOMoBVjvWCRM0erxR+fAL
+I, [2017-03-18T18:38:54.817364 #66092]  INFO -- default-ubuntu-1604:     +FKruuoXjQ69I2bTiZfoSHtDxqa+YMnNqqFOZdyJsH13Fx/Ma3k0EVI4uOuX5RoJ8
+I, [2017-03-18T18:38:54.817383 #66092]  INFO -- default-ubuntu-1604:     +BN3SAkBSiZu/yRf9XF/ikKvrb3YcaPaUgRPVP3EweJJx98whWxPmgSbv/GvQCQa7
+I, [2017-03-18T18:38:54.817402 #66092]  INFO -- default-ubuntu-1604:     +GyvwvqvWuiw+kgl4RlCGvL354zQwSoD+li+ZgnuhzRlSnj962O2cobvY+UzW1fiO
+I, [2017-03-18T18:38:54.817809 #66092]  INFO -- default-ubuntu-1604:     +vTrGzQCgg7/WrciTjK8wtd8e/E26mU1agOMAniYHo/aFmpsSFfNp4n419EI+mCXU
+I, [2017-03-18T18:38:54.817854 #66092]  INFO -- default-ubuntu-1604:     +=fBn8
+I, [2017-03-18T18:38:54.817990 #66092]  INFO -- default-ubuntu-1604:     +-----END PGP PUBLIC KEY BLOCK-----
+I, [2017-03-18T18:38:54.818292 #66092]  INFO -- default-ubuntu-1604: [2017-03-18T22:38:54+00:00] INFO: remote_file[/tmp/pkg.jenkins.io.key] sending run action to execute[apt-key add /tmp/pkg.jenkins.io.key] (immediate)
+I, [2017-03-18T18:38:54.818714 #66092]  INFO -- default-ubuntu-1604:   * execute[apt-key add /tmp/pkg.jenkins.io.key] action run[2017-03-18T22:38:54+00:00] INFO: Processing execute[apt-key add /tmp/pkg.jenkins.io.key] action run (jenkins::default line 15)
+I, [2017-03-18T18:38:54.929974 #66092]  INFO -- default-ubuntu-1604: 
+I, [2017-03-18T18:38:54.930865 #66092]  INFO -- default-ubuntu-1604:     [execute] OK
+I, [2017-03-18T18:38:54.943799 #66092]  INFO -- default-ubuntu-1604: [2017-03-18T22:38:54+00:00] INFO: execute[apt-key add /tmp/pkg.jenkins.io.key] ran successfully
+I, [2017-03-18T18:38:54.944603 #66092]  INFO -- default-ubuntu-1604:     - execute apt-key add /tmp/pkg.jenkins.io.key
+I, [2017-03-18T18:38:54.945343 #66092]  INFO -- default-ubuntu-1604:   * execute[apt-key add /tmp/pkg.jenkins.io.key] action nothing[2017-03-18T22:38:54+00:00] INFO: Processing execute[apt-key add /tmp/pkg.jenkins.io.key] action nothing (jenkins::default line 15)
+I, [2017-03-18T18:38:54.946123 #66092]  INFO -- default-ubuntu-1604:  (skipped due to action :nothing)
+I, [2017-03-18T18:38:54.946976 #66092]  INFO -- default-ubuntu-1604:   * file[/etc/apt/sources.list.d/jenkins.list] action create[2017-03-18T22:38:54+00:00] INFO: Processing file[/etc/apt/sources.list.d/jenkins.list] action create (jenkins::default line 19)
+I, [2017-03-18T18:38:54.951278 #66092]  INFO -- default-ubuntu-1604: [2017-03-18T22:38:54+00:00] INFO: file[/etc/apt/sources.list.d/jenkins.list] backed up to /tmp/kitchen/backup/etc/apt/sources.list.d/jenkins.list.chef-20170318223854.285907
+I, [2017-03-18T18:38:54.952259 #66092]  INFO -- default-ubuntu-1604: [2017-03-18T22:38:54+00:00] INFO: file[/etc/apt/sources.list.d/jenkins.list] updated file contents /etc/apt/sources.list.d/jenkins.list
+I, [2017-03-18T18:38:54.952739 #66092]  INFO -- default-ubuntu-1604: 
+I, [2017-03-18T18:38:54.953445 #66092]  INFO -- default-ubuntu-1604:     - update content in file /etc/apt/sources.list.d/jenkins.list from e285bd to 211809
+I, [2017-03-18T18:38:54.954488 #66092]  INFO -- default-ubuntu-1604:     --- /etc/apt/sources.list.d/jenkins.list	2017-03-18 22:31:40.810286000 +0000
+I, [2017-03-18T18:38:54.955264 #66092]  INFO -- default-ubuntu-1604:     +++ /etc/apt/sources.list.d/.chef-jenkins20170318-4464-1duyttm.list	2017-03-18 22:38:54.278912000 +0000
+I, [2017-03-18T18:38:54.955787 #66092]  INFO -- default-ubuntu-1604:     @@ -1,2 +1,2 @@
+I, [2017-03-18T18:38:54.956412 #66092]  INFO -- default-ubuntu-1604:     -deb      "http://pkg.jenkins-ci.org/debian" xenial binary/
+I, [2017-03-18T18:38:54.957837 #66092]  INFO -- default-ubuntu-1604:     +deb http://pkg.jenkins.io/debian-stable binary/
+I, [2017-03-18T18:38:54.958378 #66092]  INFO -- default-ubuntu-1604: [2017-03-18T22:38:54+00:00] INFO: file[/etc/apt/sources.list.d/jenkins.list] sending run action to execute[apt-get update] (immediate)
+I, [2017-03-18T18:38:54.959315 #66092]  INFO -- default-ubuntu-1604:   * execute[apt-get update] action run[2017-03-18T22:38:54+00:00] INFO: Processing execute[apt-get update] action run (jenkins::default line 24)
+I, [2017-03-18T18:38:55.105841 #66092]  INFO -- default-ubuntu-1604: 
+I, [2017-03-18T18:38:55.106644 #66092]  INFO -- default-ubuntu-1604:     [execute] Hit:1 http://us.archive.ubuntu.com/ubuntu xenial InRelease
+I, [2017-03-18T18:38:55.112209 #66092]  INFO -- default-ubuntu-1604:        Ign:2 http://pkg.jenkins.io/debian-stable binary/ InRelease
+I, [2017-03-18T18:38:55.126230 #66092]  INFO -- default-ubuntu-1604:        Hit:3 http://us.archive.ubuntu.com/ubuntu xenial-updates InRelease
+I, [2017-03-18T18:38:55.127292 #66092]  INFO -- default-ubuntu-1604:        Get:4 http://pkg.jenkins.io/debian-stable binary/ Release [2042 B]
+I, [2017-03-18T18:38:55.139575 #66092]  INFO -- default-ubuntu-1604:        Get:5 http://pkg.jenkins.io/debian-stable binary/ Release.gpg [181 B]
+I, [2017-03-18T18:38:55.153090 #66092]  INFO -- default-ubuntu-1604:        Hit:6 http://us.archive.ubuntu.com/ubuntu xenial-backports InRelease
+I, [2017-03-18T18:38:55.208932 #66092]  INFO -- default-ubuntu-1604:        Hit:7 http://security.ubuntu.com/ubuntu xenial-security InRelease
+I, [2017-03-18T18:38:55.236655 #66092]  INFO -- default-ubuntu-1604:        Hit:8 http://ppa.launchpad.net/openjdk-r/ppa/ubuntu xenial InRelease
+I, [2017-03-18T18:38:55.307645 #66092]  INFO -- default-ubuntu-1604:        Get:9 http://pkg.jenkins.io/debian-stable binary/ Packages [1045 B]
+I, [2017-03-18T18:38:55.495624 #66092]  INFO -- default-ubuntu-1604:        Fetched 3268 B in 0s (6847 B/s)
+I, [2017-03-18T18:38:57.791717 #66092]  INFO -- default-ubuntu-1604:        Reading package lists...
+I, [2017-03-18T18:38:57.858353 #66092]  INFO -- default-ubuntu-1604: [2017-03-18T22:38:57+00:00] INFO: execute[apt-get update] ran successfully
+I, [2017-03-18T18:38:57.858849 #66092]  INFO -- default-ubuntu-1604:     - execute apt-get update
+I, [2017-03-18T18:38:57.859866 #66092]  INFO -- default-ubuntu-1604:   * execute[apt-get update] action nothing[2017-03-18T22:38:57+00:00] INFO: Processing execute[apt-get update] action nothing (jenkins::default line 24)
+I, [2017-03-18T18:38:57.860259 #66092]  INFO -- default-ubuntu-1604:  (skipped due to action :nothing)
+I, [2017-03-18T18:38:57.861612 #66092]  INFO -- default-ubuntu-1604:   * apt_package[jenkins] action install[2017-03-18T22:38:57+00:00] INFO: Processing apt_package[jenkins] action install (jenkins::default line 28)
+I, [2017-03-18T18:45:44.347862 #66092]  INFO -- default-ubuntu-1604: [2017-03-18T22:45:43+00:00] INFO: apt_package[jenkins] installed jenkins at 2.32.3
+I, [2017-03-18T18:45:44.394803 #66092]  INFO -- default-ubuntu-1604: 
+I, [2017-03-18T18:45:44.450899 #66092]  INFO -- default-ubuntu-1604:     - install version 2.32.3 of package jenkins
+I, [2017-03-18T18:45:44.451546 #66092]  INFO -- default-ubuntu-1604:   * service[jenkins] action start[2017-03-18T22:45:43+00:00] INFO: Processing service[jenkins] action start (jenkins::default line 30)
+I, [2017-03-18T18:45:45.552283 #66092]  INFO -- default-ubuntu-1604:  (up to date)
+I, [2017-03-18T18:45:45.553391 #66092]  INFO -- default-ubuntu-1604:   * service[jenkins] action enable[2017-03-18T22:45:45+00:00] INFO: Processing service[jenkins] action enable (jenkins::default line 30)
+I, [2017-03-18T18:45:45.857566 #66092]  INFO -- default-ubuntu-1604:  (up to date)
+I, [2017-03-18T18:45:45.982038 #66092]  INFO -- default-ubuntu-1604: [2017-03-18T22:45:45+00:00] INFO: Chef Run complete in 411.643157274 seconds
+I, [2017-03-18T18:45:46.072482 #66092]  INFO -- default-ubuntu-1604: 
+I, [2017-03-18T18:45:46.072987 #66092]  INFO -- default-ubuntu-1604: Running handlers:
+I, [2017-03-18T18:45:46.073379 #66092]  INFO -- default-ubuntu-1604: [2017-03-18T22:45:45+00:00] INFO: Running report handlers
+I, [2017-03-18T18:45:46.073804 #66092]  INFO -- default-ubuntu-1604: Running handlers complete
+I, [2017-03-18T18:45:46.074111 #66092]  INFO -- default-ubuntu-1604: [2017-03-18T22:45:45+00:00] INFO: Report handlers complete
+I, [2017-03-18T18:45:46.074614 #66092]  INFO -- default-ubuntu-1604: Chef Client finished, 5/9 resources updated in 06 minutes 53 seconds
+I, [2017-03-18T18:45:47.148951 #66092]  INFO -- default-ubuntu-1604: Finished converging <default-ubuntu-1604> (7m17.00s).
+I, [2017-03-18T18:45:47.163364 #66092]  INFO -- default-ubuntu-1604: -----> Setting up <default-ubuntu-1604>...
+I, [2017-03-18T18:45:47.165841 #66092]  INFO -- default-ubuntu-1604: Finished setting up <default-ubuntu-1604> (0m0.00s).
+I, [2017-03-18T18:45:47.165972 #66092]  INFO -- default-ubuntu-1604: -----> Verifying <default-ubuntu-1604>...
+I, [2017-03-18T18:45:48.930879 #66092]  INFO -- default-ubuntu-1604: Loaded  
+I, [2017-03-18T18:45:49.154138 #66092]  INFO -- default-ubuntu-1604: Finished verifying <default-ubuntu-1604> (0m1.96s).
