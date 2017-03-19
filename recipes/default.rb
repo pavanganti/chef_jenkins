@@ -1,9 +1,6 @@
 #
-# Cookbook:: jenkins
-# Recipe:: default
-#
-# Copyright:: 2017, The Authors, All Rights Reserved.
-
+#Cookbook:: jenkins_server
+#Recipe:: default
 #wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key
 remote_file '/tmp/pkg.jenkins.io.key' do
   source 'https://pkg.jenkins.io/debian/jenkins-ci.org.key'
@@ -26,3 +23,6 @@ execute 'apt-get update' do
 end
 
 package 'jenkins'
+
+#
+# Copyright:: 2017, The Authors, All Rights Reserved.
