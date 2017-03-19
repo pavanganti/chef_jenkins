@@ -26,8 +26,3 @@ execute 'apt-get update' do
 end
 
 package 'jenkins'
-
-service "jenkins" do
-  supports [:stop, :start, :restart]
-  action [:start, :enable]
-end
