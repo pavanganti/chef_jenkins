@@ -1,4 +1,4 @@
-name 'jenkins'
+name 'chef_jenkins'
 maintainer 'The Authors'
 maintainer_email 'pavanganti@gmail.com'
 license 'all_rights'

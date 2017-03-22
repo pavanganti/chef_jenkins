@@ -1,7 +1,7 @@
 ---
 hostname: 127.0.0.1
-port: '2200'
+port: '2222'
 username: vagrant
-ssh_key: "/Users/anirudh/Documents/chefJenkins1/chef_jenkins/.kitchen/kitchen-vagrant/kitchen-chef_jenkins-default-ubuntu-1604/.vagrant/machines/default/virtualbox/private_key"
+ssh_key: "/Users/anirudh/Documents/chefJenkins/mychef-e64fbmuilsjh88hg/cookbooks/chef_jenkins/.kitchen/kitchen-vagrant/kitchen-chef_jenkins-default-ubuntu-1604/.vagrant/machines/default/virtualbox/private_key"
 last_action: verify
 last_error: 

@@ -7,7 +7,7 @@ provisioner:
   # You may wish to disable always updating cookbooks in CI or other testing environments.
   # For example:
   #   always_update_cookbooks: <%= !ENV['CI'] %>
-  always_update_cookbooks: false
+  always_update_cookbooks: true
 
 verifier:
   name: inspec
@@ -19,6 +19,7 @@ suites:
   - name: default
     run_list:
       - recipe[chef_jenkins::default]
+
     verifier:
       inspec_tests:
         - test/smoke/default
