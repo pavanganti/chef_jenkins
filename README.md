@@ -1,6 +1,5 @@
 # jenkins
 
-TODO: Enter the cookbook description here.
 
 The cookbook installs Jenkins on the Amazon Linux EC2 instance. 
 
